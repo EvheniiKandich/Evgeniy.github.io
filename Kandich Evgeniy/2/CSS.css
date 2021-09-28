@@ -1,0 +1,18 @@
+td,tr {
+    border: 3px solid black;
+    padding: 0px;    
+    font-family: 'Rubik One', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #021636 33%, #0D61BC 66%, #8AA9D6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    margin: 20px auto;
+    }
+body {
+    background: linear-gradient( yellow, orange)
+}
+h1 {
+    text-align: center;
+}
