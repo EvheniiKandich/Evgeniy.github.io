@@ -1,0 +1,67 @@
+.TSblock {
+    margin-right: 10px;
+    background-color: rgb(170, 12, 12);
+}
+
+.SMblock {
+    margin-right: 10px;
+    background: linear-gradient(to bottom, rgb(10, 10, 139), pink);
+}
+
+.BWblock {
+    margin-right: 10px;
+    background: linear-gradient(to right, rgb(31, 31, 31), purple);
+}
+.CUblock {
+    background: linear-gradient(to bottom, red, rgb(31, 31, 31));
+}
+
+.TSblock,
+.SMblock,
+.BWblock,
+.CUblock {
+    border:1px solid black;
+    width: 400px;
+    height: 190px;
+    border-radius: 15px;
+}
+
+.content {
+    flex-direction: row;
+    display: flex;
+}
+
+.title {
+    color: azure;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
+}
+
+.TSf {
+    display: flex;
+    background-image: url(../img/TS.png);
+    height: 70%;
+    width: 50%;
+}
+
+.SMf {
+    display: flex;
+    background-image: url(../img/SM.png);
+    height: 70%;
+    width: 50%;
+}
+
+.BWf {
+    display: flex;
+    background-image: url(../img/BW.png);
+    height: 70%;
+    width: 50%;
+}
+
+.CUf {
+    display: flex;
+    background-image: url(../img/CU.png);
+    height: 70%;
+    width: 50%;
+}
