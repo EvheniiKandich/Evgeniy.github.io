@@ -1,0 +1,123 @@
+h1 {
+    display: flex;
+    margin-left: 40px;
+    color:white;
+    font: 200% sans-serif;
+}
+
+body {
+    background-image: url(../img/background.jpg);
+    margin: 0;
+        
+}
+
+.dark {
+    background-color: rgba(0, 0, 0, 0.377);
+    display: flex;
+    width: inherit;
+    height: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fff; 
+    transform: scale(1.3);
+    
+}
+
+.h2 {
+    margin-left: 1400px;
+    margin-top: -50px;
+
+}
+a:link {
+    display: flex;
+    margin-left: 20px;
+    color:white;
+    flex-direction: row;
+    font: 50% sans-serif;
+    text-decoration: none;
+}
+
+.topbutton {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 710px;
+    margin-top: 200px;
+    font: 300% sans-serif;    
+}
+
+button {
+    display: flex;
+    border: 5px solid white;
+    background-color: rgba(255, 255, 255, 0);
+    margin:10px;
+    font: 200% sans-serif;
+    color: white;
+    margin-left: 825px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    
+}
+
+
+.body {
+    background-color: white;
+    height: 500px;
+    width: 1901px;
+    border: 1px solid white;
+}
+
+h5 {
+    font-size: 200%;
+    text-align: center;
+}
+
+h6 {
+    font-size: 100%;
+    text-align: center; 
+}
+
+.fasfa-font {
+    display: flex;
+    margin-left: 200px;
+}
+
+.fasfa-code {
+    display: flex;
+    margin-left: 900px;
+    margin-top: -200px;
+}
+
+.farfa-life-ring {
+    display: flex;
+    margin-left: 1500px;
+    margin-top: -190px;
+}
+
+.text {
+    margin-top: 120px;
+    margin-left: -120px;
+}
+
+.textin {
+    display: flex;
+    text-align: center;
+    margin-left: -50px;
+}
+
+.foother {
+    background-color: rgb(105, 29, 29);
+    margin-bottom: -100px;
+}
+
+.foot {
+    margin-left: 700px;    
+}
+
+.footi {
+    text-align: center;
+}

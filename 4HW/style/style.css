@@ -1,0 +1,91 @@
+.header {
+    z-index: 1;
+}
+
+.block {
+    position: relative;
+    width: 85px; height: 33px;
+}
+.block::after {
+    content: ''; 
+    position: absolute;
+    right: -30px; top: -20px;
+    border: 15px solid transparent;
+    border-bottom: 50px solid black;
+    
+}
+
+.bigblock {
+    position: relative;
+    width: 100px; height: 50px;
+}
+.bigblock::after {
+    content: ''; 
+    position: absolute;
+    right: -30px; top: 15px;
+    border: 30px solid transparent;
+    border-bottom: 100px solid burlywood;
+}
+
+.pencil {
+    display: inline;
+    z-index: 3;
+    
+}
+
+.left {
+    border-radius:5px 10px 0 0;
+    border: 1px solid rgb(214, 214, 214);
+    height: 500px;
+    margin-top: 51px;
+    margin-left: 70px;
+    width: 20px;
+    background: crimson;
+    box-shadow: 0 -150px 70px -120px teal inset,
+              0 -220px 70px -120px yellowgreen inset,
+              0 -280px 70px -120px gold inset;
+    position: absolute;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    animation: background 4s infinite alternate;
+}
+
+.center {
+    border-radius:10px 10px 0 0;
+    border: 1px solid rgb(214, 214, 214);
+    height: 500px;
+    margin-left: 90px;
+    width: 20px;
+    background: crimson;
+    box-shadow: 0 -150px 70px -120px teal inset,
+              0 -220px 70px -120px yellowgreen inset,
+              0 -280px 70px -120px gold inset;
+    position: absolute;
+    margin-top: 51px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    animation: background 4s infinite alternate;
+}
+
+.right {
+    border-radius:10px 5px 0 0;
+    border: 1px solid rgb(214, 214, 214);
+    height: 500px;
+    margin-left: 110px;
+    width: 18px;
+    background: crimson;
+    box-shadow: 0 -150px 70px -120px teal inset,
+              0 -220px 70px -120px yellowgreen inset,
+              0 -280px 70px -120px gold inset;
+    margin-top: 51px;
+    position: absolute;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    animation: background 4s infinite alternate;
+}
+@keyframes background {
+    50% {
+      background: darkviolet;
+      box-shadow: 0 -140px 70px -120px mediumorchid inset,
+                  0 -210px 70px -120px teal inset,
+                  0 -280px 70px -120px plum inset;
+    }
+  }
+  

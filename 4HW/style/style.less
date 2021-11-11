@@ -1,0 +1,52 @@
+body {
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.pencil {
+	position: absolute;
+	width: 50em;
+	height: 3.5em;
+	font-size: 10px;
+    .barrel {
+        position: absolute;
+        width: 40em;
+        left: 4em;
+        background-color: blue;
+        border-top: 1em solid rgb(32, 73, 255);
+        border-bottom: 1em solid darkblue;
+        line-height: 1.5em;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;	
+    }
+    .taper::before,
+    .taper::after {
+	    content: '';
+	    position: absolute;
+	    left: -4em; 
+	    border-style: solid;
+	    border-width: calc(3.5em / 2) 4em;
+    }
+    .taper::before {
+ 
+        border-color: transparent burlywood transparent transparent;
+    }
+    .taper::after {
+  
+        border-color: transparent black transparent transparent;
+        transform: scale(0.3);
+    }
+}
+
+.barrel {
+    border-radius: 10px 0 0 10px;
+    margin-left: -8px;
+}
+
+.taper {
+    border-radius: 0 0 0 0;
+}

@@ -1,0 +1,74 @@
+
+.inst {
+    /*border-radius: 15px;
+    background: linear-gradient(to bottom, pink, yellow);
+    background-image: url(../img/Instagram-two.png.webp);
+    height: 1024px;
+    width: 1024px;*/  
+}
+
+/*.instamain {
+    border-radius: 15px;
+    background: linear-gradient(to left bottom, black, white, red);
+    height: 1024px;
+    width: 1024px;
+    margin-top: 50px;
+    position: absolute;    
+}
+
+.inup {
+    border-radius: 150px;
+    border:100px solid white;
+    height: 650px;
+    margin: 100px;
+}*/
+
+body {  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    width: 100vw;  
+    height: 100vh;  
+    overflow: hidden;
+    background-color: black;
+}
+
+.insta {  
+    width: 1000px;  
+    height: 1000px;  
+    background: radial-gradient(circle at 30% 107%, black,  red, white);  
+    border-radius: 35px;  
+    display: grid;  
+    place-items: center;  
+}
+.innerbox {  
+    width: 900px;  
+    height: 900px;  
+    border: 10px solid #fff;  
+    border-radius: 32px;  
+    display: grid;  
+    place-items: center;  
+    position: relative;  
+}
+
+.innerbox::before {  
+    content: '';  
+    width: 300px;  
+    height: 300px;  
+    border: 10px solid #fff;  
+    border-radius: 50%;  
+    background: transparent;  
+    position: absolute;  
+}  
+ 
+.innerbox::after {  
+    content: '';  
+    width: 100px;  
+    height: 100px;  
+    border: 2px solid #fff;  
+    border-radius: 50%;  
+    background: #fff;  
+    position: absolute;  
+    top: 8px;  
+    right: 10px;  
+}

@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(211, 211, 212);
+}
+
+.all {
+    margin: 100px;
+    display: inline-flex;
+    margin-left: 500px;
+    width: 1000px;
+}
+
+.white {
+    background-color: ghostwhite;
+    width: 59%;
+    height: 600px;
+    border-radius: 40px 0 0 40px;
+}
+
+.beruze {
+    background-color: rgb(2, 128, 128);
+    width: 40%;
+    height: 600px;
+    border-radius: 0 40px 40px 0;
+    text-align: center;
+}
+
+h4 {
+    font-size: 200%;
+
+}
+
+h5 {
+    font-size: 50%;
+
+}
+
+.bluebutton {
+    border:5px solid azure;
+    border-radius: 15px;
+    background-color: rgba(240, 255, 255, 0);
+    margin: 100px;
+    height: 50px;
+    width: 100px;
+}
